@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    font: {
+        family:consolas;
+        size:1.1rem;
+    }
+}
+
+p{
+    top:100px;
+    position:absolute;
+    text-transform: capitalize;
+    font: {
+        size:1.5rem;
+    }
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-flow:column;
+    align-items: center;
+    height:100vh;
+}
+// main-var
+$hw:100px;
+// go go go
+
+.rgb{
+    height:$hw+22px;
+    width:$hw*4;
+    border:2px solid black;
+    border-radius: 13px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    label{
+        position: relative;
+        top: -45px;
+        left: 59px;
+        color:white;
+    }    
+    div{
+        margin:3px;
+        height:50px;
+        width:100px;
+        display:flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        color:white;   
+        border-radius:inherit;
+
+    }
+    .n1{
+        background-color: rgb(255,0,0,0.7);
+    }
+    .n2{
+        background-color: rgb(0,255,0,0.7);
+    }
+    .n3{
+        background-color: rgb(0,0,255,0.8);
+    }
+}
